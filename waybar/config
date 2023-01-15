@@ -1,0 +1,116 @@
+{
+    "include": "~/.config/waybar/modules",
+    "layer": "top",
+    "height": 22,
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-bottom": 0,
+    "margin-right": 0,
+    "spacing": 0,
+    "modules-left": ["custom/launcher","wlr/workspaces","custom/arrow-dec","custom/app-icon","custom/app-name"],
+    "modules-center": ["custom/dot","clock","custom/dot"],
+    "modules-right": [
+        "memory",
+        "custom/dot", 
+        "custom/pacman-update",
+        "custom/pacman-update#text",
+        "pulseaudio",
+        "pulseaudio#text",
+        "custom/dot", 
+        "network",
+        "custom/dot-alt", 
+        "battery"
+    ],
+    "wlr/workspaces": {
+        "all-outputs": false,
+        "active-only": "false",
+        "on-click": "activate",
+        "format": "{icon}",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+      "format-icons": {
+        "1": "",
+        "2": "ﳡ",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "urgent": "",
+        "default": ""
+      }
+    },
+    "hyprland/window": {
+        "format": "{}"
+    },
+    "tray": {
+        "icon-size": 28,
+        "spacing": 8
+    },
+    "clock": {
+        "format": "<b>{:%I:%M %p}</b>",
+        "format-alt": "<b>{:%a %b %d}</b>",
+        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+    },
+
+    "cpu": {
+      "interval": 10,
+      "format": " {}%",
+      "max-length": 10,
+      "on-click": "",
+    },
+    "memory": {
+        "interval": 30,
+        "format": " {used}G",
+        "format-alt":" {used:0.1f}G",
+        "max-length": 10,
+    },
+    "backlight": {
+        "device": "DP-1",
+        "format": "{icon} {percent}%",
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "on-click": "",
+    },
+    "network": {
+        "format-wifi": "直 {essid}",
+        "format-ethernet": " wired",
+        "format-disconnected": "睊",
+        "on-click": "bash ~/.config/waybar/scripts/rofi-wifi-menu.sh",
+        "format-disconnected": "睊",
+    },
+
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-bluetooth": " ",
+        "format-bluetooth-muted": " ",
+        "format-muted": "婢",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["墳", "墳", "墳"]
+        },
+        "on-click": "pavucontrol"
+    },
+    "pulseaudio#text": {
+        "format": "<b>{volume}</b>",
+        "format-bluetooth": "{volume}"
+    },
+
+    "battery": {
+        "bat": "BAT1",
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-icons": [" ", " ", " ", " ", " "],
+        "max-length": 25
+    }
+}
+

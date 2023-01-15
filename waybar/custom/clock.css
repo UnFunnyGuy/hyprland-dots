@@ -1,0 +1,12 @@
+@import "../colors-waybar.css";
+
+
+  label#clock{
+    color: @foreground;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 13px;
+    background-color : @background-alt;
+  }

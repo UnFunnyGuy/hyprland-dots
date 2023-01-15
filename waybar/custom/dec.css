@@ -1,0 +1,10 @@
+@import "../colors-waybar.css";
+
+
+label#custom-dot-alt{
+    color : @primary;
+  }
+  
+  label#custom-dot{
+    color : @background-alt;
+  }

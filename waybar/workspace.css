@@ -1,0 +1,53 @@
+@import "colors-waybar.css";
+
+
+#workspaces label {
+  font-size: 17px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+
+box#workspaces{
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-radius: 13px;
+  background-color : @background-alt;
+}
+
+#workspaces button {
+  color: @secondary;
+  background-color: transparent;
+  /* Use box-shadow instead of border so the text isn't offset */
+  box-shadow: inset 0 -3px @background-alt;
+  /* Avoid rounded borders under each workspace name */
+  border: none;
+  border-radius: 10px;
+
+}
+
+box#workspaces{
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-radius: 13px;
+  background-color : @background-alt;
+}
+
+
+#workspaces button:hover {
+  /* cursor: pointer; */
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 -3px @primary;
+}
+
+#workspaces button.focused {
+  color: #bf616a;
+}
+
+#workspaces button.active {
+  color: @primary;
+}
+
+#workspaces button.urgent {
+  background-color: #eb4d4b;
+}

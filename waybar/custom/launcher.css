@@ -1,0 +1,19 @@
+@import "../colors-waybar.css";
+
+
+#custom-launcher {
+    background-color: @background;
+    color: @primary;
+    border-radius: 7.5px;
+    padding: 0 5px;
+    margin-left: 6px;
+  }
+
+label#custom-launcher {
+    font-size: 15;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius: 13px;
+    color: @primary;
+    background-color : @background;
+  }

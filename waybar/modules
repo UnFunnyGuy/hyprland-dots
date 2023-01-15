@@ -1,0 +1,37 @@
+
+{
+
+    "custom/launcher": {
+        "format": "  ",
+        "on-click": "~/.config/rofi/launchers/type-1/launcher.sh",
+    },
+    "custom/dot": {
+        "format": "  ",
+    },
+    "custom/dot-alt": {
+        "format": "  ",
+    },
+    "custom/arrow-dec": {
+        "format": "  ",
+    },
+    "custom/app-icon": {
+        "format": "{}",
+        "interval": 1,
+		"exec": "~/.config/waybar/scripts/title/icon_check.sh"
+    },
+    "custom/app-name": {
+        "format": "<b>{}</b>",
+		"interval": 1,
+		"exec": "~/.config/waybar/scripts/title/win_class_way.sh"
+    },
+
+    "custom/pacman-update": {
+        "format": "ﰩ"
+    },
+    "custom/pacman-update#text": {
+        "format": "<b>{}</b>",
+        "interval": 3600,
+        "exec": "pacman -Qu | wc -l"
+    }
+
+}
