@@ -9,18 +9,16 @@
 @import "custom/apptitle.css";
 @import "custom/clock.css";
 
-
 * {
   font-family: JetBrainsMono Nerd Font;
   font-size: 14px;
 }
 
-
 #memory {
   color: #ebcb8b;
 }
 
-#custom-pacman-update{
+#custom-pacman-update {
   font-size: 18px;
   color: @green;
 }
@@ -28,10 +26,9 @@
 #custom-pacman-update.text {
   font-size: 12px;
   color: @foreground;
-  
 }
 
-#pulseaudio{
+#pulseaudio {
   font-size: 18px;
   color: #7d9bba;
 }

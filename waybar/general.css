@@ -1,63 +1,79 @@
 @import "colors-waybar.css";
 
+#battery,
 #pulseaudio,
-#custom-pacman-update
-{
+#custom-pacman-update {
   padding: 0 2px;
 }
 
-label#custom-pacman-update{
+label#battery {
   margin-top: 6px;
   margin-bottom: 6px;
   padding-left: 15px;
-  padding-right: 4px;
+  padding-right: 2px;
   border-top-left-radius: 13px;
   border-bottom-left-radius: 13px;
-  background-color : @background-alt;
+  background-color: @background-alt;
 }
 
-label#custom-pacman-update.text{
+label#battery.text {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 3px;
+  padding-right: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: @background-alt;
+}
+
+label#custom-pacman-update {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 7px;
+  padding-right: 4px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: @background-alt;
+}
+
+label#custom-pacman-update.text {
   margin-top: 6px;
   margin-bottom: 6px;
   padding-left: 4px;
   padding-right: 5px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
-  background-color : @background-alt;
+  background-color: @background-alt;
 }
 
-label#pulseaudio{
+label#pulseaudio {
   padding: 6px;
   margin-top: 6px;
-  padding-left: 5px;
+  padding-left: 6px;
   padding-right: 4px;
   margin-bottom: 6px;
-  background-color : @background-alt;
+  background-color: @background-alt;
 }
 
-label#pulseaudio.text{
+label#pulseaudio.text {
   margin-top: 6px;
   margin-bottom: 6px;
   padding-left: 4px;
   padding-right: 15px;
   border-top-right-radius: 13px;
   border-bottom-right-radius: 13px;
-  background-color : @background-alt;
+  background-color: @background-alt;
 }
 
-
-
-label#memory
-label#backlight,
+label#memory label#backlight,
 label#network {
   margin-top: 6px;
   margin-bottom: 6px;
   border-radius: 13px;
-  background-color : @background;
+  background-color: @background;
 }
 
-#memory
-#clock,
+#memory #clock,
 #battery,
 #cpu,
 #disk,
@@ -65,33 +81,29 @@ label#network {
 #backlight,
 #network,
 #mode,
-#idle_inhibitor{
+#idle_inhibitor {
   padding: 0 10px;
   color: @foreground;
   background-color: @background;
 }
 
+#window {
+  margin: 0 0px;
+  border-radius: 0px;
+  background-color: @background;
+}
 
+#cpu {
+  color: #fb958b;
+  background-color: #bf616a;
+}
 
-  #window {
-    margin: 0 4px;
-    border-radius: 7.8px;
-    background-color: @background;
-  }
-  
-  #cpu {
-    color: #fb958b;
-    background-color: #bf616a;
-  }
-  
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
 
-
-  /* If workspaces is the leftmost module, omit left margin */
-  .modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
-  }
-  
-  /* If workspaces is the rightmost module, omit right margin */
-  .modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
-  }
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}

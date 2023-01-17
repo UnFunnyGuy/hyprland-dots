@@ -1,18 +1,16 @@
 @import "colors-waybar.css";
 
-
 #workspaces label {
   font-size: 17px;
   margin-left: 6px;
   margin-right: 6px;
 }
 
-
-box#workspaces{
+box#workspaces {
   margin-top: 6px;
   margin-bottom: 6px;
   border-radius: 13px;
-  background-color : @background-alt;
+  background-color: @background-alt;
 }
 
 #workspaces button {
@@ -23,16 +21,14 @@ box#workspaces{
   /* Avoid rounded borders under each workspace name */
   border: none;
   border-radius: 10px;
-
 }
 
-box#workspaces{
+box#workspaces {
   margin-top: 6px;
   margin-bottom: 6px;
   border-radius: 13px;
-  background-color : @background-alt;
+  background-color: @background-alt;
 }
-
 
 #workspaces button:hover {
   /* cursor: pointer; */
