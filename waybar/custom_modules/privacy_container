@@ -2,23 +2,23 @@
   "custom/left": {
     "format": "<b>{}</b>",
     "tooltip": false,
-    "interval": 4,
+    "interval": 1,
     "exec": "~/.config/waybar/scripts/custom/speaker-test.sh l"
   },
   "custom/right": {
     "format": "<b>{}</b>",
     "tooltip": false,
-    "interval": 4,
+    "interval": 1,
     "exec": "~/.config/waybar/scripts/custom/speaker-test.sh r"
   },
   "custom/priv-speaker": {
     "format": "<b>{}</b>",
-    "interval": 4,
+    "interval": 1,
     "exec": "~/.config/waybar/scripts/custom/speaker-test.sh S"
   },
   "custom/priv-mic": {
     "format": "<b>{}</b>",
-    "interval": 4,
+    "interval": 1,
     "exec": "~/.config/waybar/scripts/custom/speaker-test.sh M"
   }
 }
