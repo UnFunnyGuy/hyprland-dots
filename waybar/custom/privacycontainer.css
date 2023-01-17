@@ -1,0 +1,41 @@
+@import "../colors-waybar.css";
+
+#custom-left,
+#custom-right,
+#custom-priv-mic,
+#custom-priv-speaker {
+  font-size: 13px;
+  padding: 2px;
+  color: @foreground;
+  background-color: @background;
+}
+
+label#custom-left,
+label#custom-right,
+label#custom-priv-mic,
+label#custom-priv-speaker {
+  color: @background;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  background-color: @green;
+}
+
+label#custom-priv-speaker {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+label#custom-priv-mic {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+label#custom-left {
+  border-top-left-radius: 26px;
+  border-bottom-left-radius: 26px;
+}
+
+label#custom-right {
+  border-top-right-radius: 26px;
+  border-bottom-right-radius: 26px;
+}

@@ -1,0 +1,48 @@
+{
+  "include": "~/.config/waybar/custom_modules/privacy_container",
+  "custom/launcher": {
+    "format": " 󩈞 ",
+    "on-click": "~/.config/rofi/launchers/type-1/launcher.sh"
+  },
+  "custom/dot": {
+    "format": "  ",
+    "tooltip": false
+  },
+  "custom/dot-alt": {
+    "format": "  ",
+    "tooltip": false
+  },
+  "custom/left-arrw": {
+    "format": "󩈳",
+    "tooltip": false
+  },
+  "custom/right-arrw": {
+    "format": "󩈴",
+    "tooltip": false
+  },
+  "custom/arrow-dec": {
+    "format": " 󩈴 ",
+    "tooltip": false
+  },
+  "custom/app-icon": {
+    "format": "{}",
+    "interval": 1,
+    "exec": "~/.config/waybar/scripts/title/icon_check.sh",
+    "tooltip": false
+  },
+  "custom/app-name": {
+    "format": "<b>{}</b>",
+    "interval": 1,
+    "exec": "~/.config/waybar/scripts/title/win_class_way.sh",
+    "tooltip": false
+  },
+  "custom/pacman-update": {
+    "format": "󩈭"
+  },
+  "custom/pacman-update#text": {
+    "format": "<b>{}</b>",
+    "interval": 15,
+    "exec": "~/.config/waybar/scripts/pacman-update-icon.sh",
+    "tooltip": false
+  }
+}

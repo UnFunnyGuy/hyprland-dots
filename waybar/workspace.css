@@ -2,13 +2,13 @@
 
 #workspaces label {
   font-size: 17px;
-  margin-left: 6px;
-  margin-right: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 box#workspaces {
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: 7px;
+  margin-bottom: 7px;
   border-radius: 13px;
   background-color: @background-alt;
 }
@@ -21,13 +21,6 @@ box#workspaces {
   /* Avoid rounded borders under each workspace name */
   border: none;
   border-radius: 10px;
-}
-
-box#workspaces {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  border-radius: 13px;
-  background-color: @background-alt;
 }
 
 #workspaces button:hover {

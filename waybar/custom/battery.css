@@ -17,6 +17,12 @@
   /* background-color: #26a65b; */
 }
 
+#battery.text.charging,
+#battery.text.full,
+#battery.text.plugged {
+  color: @foreground;
+}
+
 #battery.critical:not(.charging) {
   color: #f53c3c;
   animation-name: blink;

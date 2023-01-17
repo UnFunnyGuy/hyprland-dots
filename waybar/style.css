@@ -8,33 +8,16 @@
 @import "custom/battery.css";
 @import "custom/apptitle.css";
 @import "custom/clock.css";
+@import "custom/privacycontainer.css";
+@import "custom/maincontainer.css";
 
 * {
   font-family: JetBrainsMono Nerd Font;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 #memory {
   color: #ebcb8b;
-}
-
-#custom-pacman-update {
-  font-size: 18px;
-  color: @green;
-}
-
-#custom-pacman-update.text {
-  font-size: 12px;
-  color: @foreground;
-}
-
-#pulseaudio {
-  font-size: 18px;
-  color: #7d9bba;
-}
-#pulseaudio.text {
-  font-size: 12px;
-  color: @foreground;
 }
 
 #backlight {
