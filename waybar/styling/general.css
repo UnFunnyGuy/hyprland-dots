@@ -18,7 +18,7 @@ label#network {
 #mode,
 #idle_inhibitor {
   padding: 0 0px;
-  color: @foreground;
+  color: @on-background;
   background-color: @background;
 }
 

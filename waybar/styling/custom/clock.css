@@ -2,7 +2,7 @@
 
 label#clock {
   font-size: 15px;
-  color: @foreground;
+  color: @on-background;
   margin-top: 6px;
   margin-bottom: 6px;
   margin-right: 6px;

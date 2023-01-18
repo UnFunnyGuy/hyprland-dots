@@ -5,7 +5,7 @@ label:focus {
 }
 
 #disk {
-  background-color: @color2;
+  background-color: @on-surface-variant;
 }
 
 #temperature {

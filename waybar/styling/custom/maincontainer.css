@@ -7,7 +7,7 @@
 
 #custom-pacman-update.text {
   font-size: 12px;
-  color: @foreground;
+  color: @on-background;
 }
 
 #pulseaudio {
@@ -16,7 +16,7 @@
 }
 #pulseaudio.text {
   font-size: 12px;
-  color: @foreground;
+  color: @on-background;
 }
 
 label#battery,
@@ -27,7 +27,7 @@ label#pulseaudio,
 label#pulseaudio.text {
   margin-top: 6px;
   margin-bottom: 6px;
-  background-color: @background-alt;
+  background-color: @secondary-container;
 }
 
 label#battery {

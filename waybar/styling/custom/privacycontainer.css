@@ -7,7 +7,7 @@
 #custom-priv-speaker {
   font-size: 13px;
   padding: 2px;
-  color: @foreground;
+  color: @on-background;
   background-color: @background;
 }
 

@@ -21,5 +21,5 @@
 #custom-app-name {
   margin-left: 5px;
   font-size: 16px;
-  color: @foreground;
+  color: @on-background;
 }
