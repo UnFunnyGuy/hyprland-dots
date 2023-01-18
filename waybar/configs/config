@@ -1,5 +1,5 @@
 {
-  "include": "~/.config/waybar/custom_modules/modules",
+  "include": "~/.config/waybar/configs/custom_modules/modules",
   "layer": "top",
   "height": 22,
   "margin-top": 0,

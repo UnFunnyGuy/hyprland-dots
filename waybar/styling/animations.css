@@ -1,0 +1,8 @@
+@import "colors-waybar.css";
+
+@keyframes blink {
+  to {
+    background-color: rgba(30, 34, 42, 0.5);
+    color: #abb2bf;
+  }
+}

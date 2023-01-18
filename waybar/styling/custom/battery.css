@@ -2,7 +2,7 @@
 
 #battery {
   font-size: 18px;
-  color: @primary;
+  color: @red;
 }
 
 #battery.text {

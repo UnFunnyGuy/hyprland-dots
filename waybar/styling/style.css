@@ -12,6 +12,7 @@
 @import "custom/maincontainer.css";
 
 * {
+  border: none;
   font-family: JetBrainsMono Nerd Font;
   font-size: 15px;
 }
