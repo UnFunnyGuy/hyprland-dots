@@ -4,17 +4,9 @@
 
 check=$(pactl list short | grep -E "RUNNING.*alsa_output|alsa_output.*RUNNING")
 check_mic=$(pactl list short | grep -E "RUNNING.*alsa_input|alsa_input.*RUNNING")
-
-return_icon() {
-    if [ -z "$1" ]; then
-        echo ""
-    else
-        echo "$2"
-    fi
-}
+check_webcam=$(lsof /dev/video0 | grep mem)
 
 speaker_check() {
-    check=$(pactl list short | grep -E "RUNNING.*alsa_output|alsa_output.*RUNNING")
 
     if [ -z "$check" ]; then
         echo ""
@@ -26,8 +18,6 @@ speaker_check() {
 
 mic_check() {
 
-    check_mic=$(pactl list short | grep -E "RUNNING.*alsa_input|alsa_input.*RUNNING")
-
     if [ -z "$check_mic" ]; then
         echo ""
     else
@@ -35,8 +25,18 @@ mic_check() {
     fi
 }
 
+cam_check() {
+
+    if [ -z "$check_webcam" ]; then
+        echo ""
+    else
+        echo "󩈁"
+    fi
+
+}
+
 left() {
-    if [ -n "$check" ] || [ -n "$check_mic" ]; then
+    if [ -n "$check" ] || [ -n "$check_webcam" ] || [ -n "$check_mic" ]; then
         echo " "
     else
         echo ""
@@ -44,7 +44,7 @@ left() {
 }
 
 right() {
-    if [ -n "$check" ] || [ -n "$check_mic" ]; then
+    if [ -n "$check" ] || [ -n "$check_webcam" ] || [ -n "$check_mic" ]; then
         echo " "
     else
         echo ""
@@ -55,6 +55,8 @@ if [ "$1" == "S" ]; then
     speaker_check
 elif [ "$1" == "M" ]; then
     mic_check
+elif [ "$1" == "C" ]; then
+    cam_check
 elif [ "$1" == "l" ]; then
     left
 elif [ "$1" == "r" ]; then

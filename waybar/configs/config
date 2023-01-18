@@ -16,6 +16,7 @@
   ],
   "modules-center": [
     "custom/left",
+    "custom/priv-cam",
     "custom/priv-speaker",
     "custom/priv-mic",
     "custom/right"

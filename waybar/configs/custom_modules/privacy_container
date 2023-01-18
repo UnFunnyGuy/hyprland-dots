@@ -22,5 +22,11 @@
     "tooltip": false,
     "interval": 1,
     "exec": "~/.config/waybar/scripts/custom/privacy-test.sh M"
+  },
+  "custom/priv-cam": {
+    "format": "<b>{}</b>",
+    "tooltip": false,
+    "interval": 1,
+    "exec": "~/.config/waybar/scripts/custom/privacy-test.sh C"
   }
 }

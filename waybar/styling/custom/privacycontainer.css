@@ -2,6 +2,7 @@
 
 #custom-left,
 #custom-right,
+#custom-priv-cam,
 #custom-priv-mic,
 #custom-priv-speaker {
   font-size: 13px;
@@ -10,6 +11,7 @@
   background-color: @background;
 }
 
+label#custom-priv-cam,
 label#custom-left,
 label#custom-right,
 label#custom-priv-mic,
@@ -26,6 +28,11 @@ label#custom-priv-speaker {
 }
 
 label#custom-priv-mic {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+label#custom-priv-cam {
   padding-left: 5px;
   padding-right: 5px;
 }
