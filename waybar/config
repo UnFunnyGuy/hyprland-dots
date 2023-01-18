@@ -70,7 +70,8 @@
     "interval": 10,
     "format": " {}%",
     "max-length": 10,
-    "on-click": ""
+    "on-click": "",
+    "tooltip": false
   },
   "memory": {
     "interval": 30,
@@ -81,6 +82,7 @@
   "backlight": {
     "device": "DP-1",
     "format": "{icon} {percent}%",
+    "tooltip": false,
     "format-icons": [
       "",
       "",
@@ -97,6 +99,7 @@
   "network": {
     "format-wifi": "󩈢 {essid}",
     "format-ethernet": " wired",
+    "tooltip": false,
     "format-disconnected": ""
   },
   "pulseaudio": {
@@ -120,6 +123,7 @@
     "on-click": "pavucontrol"
   },
   "pulseaudio#text": {
+    "tooltip": false,
     "format": "<b>{volume}</b>",
     "format-bluetooth": "{volume}"
   },
@@ -138,7 +142,8 @@
       "",
       "󩈯"
     ],
-    "max-length": 25
+    "max-length": 25,
+    "tooltip": false
   },
   "battery#text": {
     "bat": "BAT1",
@@ -148,6 +153,7 @@
       "critical": 15
     },
     "format": "<b>{capacity}</b>",
-    "max-length": 25
+    "max-length": 25,
+    "tooltip": false
   }
 }

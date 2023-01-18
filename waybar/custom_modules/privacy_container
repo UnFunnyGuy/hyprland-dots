@@ -13,11 +13,13 @@
   },
   "custom/priv-speaker": {
     "format": "<b>{}</b>",
+    "tooltip": false,
     "interval": 1,
     "exec": "~/.config/waybar/scripts/custom/speaker-test.sh S"
   },
   "custom/priv-mic": {
     "format": "<b>{}</b>",
+    "tooltip": false,
     "interval": 1,
     "exec": "~/.config/waybar/scripts/custom/speaker-test.sh M"
   }
