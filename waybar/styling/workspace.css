@@ -30,7 +30,7 @@ box#workspaces {
 }
 
 #workspaces button.focused {
-  color: #bf616a;
+  color: @primary;
 }
 
 #workspaces button.active {
@@ -38,5 +38,5 @@ box#workspaces {
 }
 
 #workspaces button.urgent {
-  background-color: #eb4d4b;
+  background-color: @red;
 }

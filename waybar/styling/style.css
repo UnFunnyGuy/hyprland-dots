@@ -18,11 +18,11 @@
 }
 
 #memory {
-  color: #ebcb8b;
+  color: @primary;
 }
 
 #backlight {
-  color: #8fbcbb;
+  color: @primary;
 }
 
 #network {
