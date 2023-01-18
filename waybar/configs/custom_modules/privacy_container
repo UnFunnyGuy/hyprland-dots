@@ -3,24 +3,24 @@
     "format": "<b>{}</b>",
     "tooltip": false,
     "interval": 1,
-    "exec": "~/.config/waybar/scripts/custom/speaker-test.sh l"
+    "exec": "~/.config/waybar/scripts/custom/privacy-test.sh l"
   },
   "custom/right": {
     "format": "<b>{}</b>",
     "tooltip": false,
     "interval": 1,
-    "exec": "~/.config/waybar/scripts/custom/speaker-test.sh r"
+    "exec": "~/.config/waybar/scripts/custom/privacy-test.sh r"
   },
   "custom/priv-speaker": {
     "format": "<b>{}</b>",
     "tooltip": false,
     "interval": 1,
-    "exec": "~/.config/waybar/scripts/custom/speaker-test.sh S"
+    "exec": "~/.config/waybar/scripts/custom/privacy-test.sh S"
   },
   "custom/priv-mic": {
     "format": "<b>{}</b>",
     "tooltip": false,
     "interval": 1,
-    "exec": "~/.config/waybar/scripts/custom/speaker-test.sh M"
+    "exec": "~/.config/waybar/scripts/custom/privacy-test.sh M"
   }
 }
