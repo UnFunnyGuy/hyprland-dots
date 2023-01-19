@@ -11,7 +11,7 @@ speaker_check() {
     if [ -z "$check" ]; then
         echo ""
     else
-        echo "󯤱"
+        echo "󩈆"
     fi
 
 }

@@ -16,26 +16,20 @@ label#custom-left,
 label#custom-right,
 label#custom-priv-mic,
 label#custom-priv-speaker {
-  color: @background;
+  color: @on-primary-container;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: @green;
+  background-color: @primary-container;
 }
 
-label#custom-priv-speaker {
-  padding-left: 5px;
-  padding-right: 5px;
-}
 
+label#custom-priv-cam,
+label#custom-priv-speaker,
 label#custom-priv-mic {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
-label#custom-priv-cam {
-  padding-left: 5px;
-  padding-right: 5px;
-}
 
 label#custom-left {
   border-top-left-radius: 16px;

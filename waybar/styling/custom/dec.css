@@ -5,7 +5,7 @@ label#custom-dot-alt {
 }
 
 label#custom-dot {
-  color: @secondary-container;
+  color: @surface-variant;
 }
 
 label#custom-left-arrw {
