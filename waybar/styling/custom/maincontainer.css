@@ -12,7 +12,7 @@
 
 #pulseaudio {
   font-size: 18px;
-  color: #7d9bba;
+  color: @tertiary;
 }
 #pulseaudio.text {
   font-size: 12px;
