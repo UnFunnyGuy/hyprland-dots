@@ -4,6 +4,8 @@
 
 @file:DependsOn("com.sealwu:kscript-tools:1.0.2")
 
+import runCommand
+import evalBash
 import java.io.File
 import kotlin.system.exitProcess
 
