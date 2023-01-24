@@ -1,7 +1,7 @@
 {
   "include": "~/.config/waybar/configs/custom_modules/privacy_container",
   "custom/launcher": {
-    "format": " 󩈞 ",
+    "format": " 󪤆 ",
     "on-click": "~/.config/rofi/launchers/type-1/launcher.sh",
     "tooltip": false
   },
@@ -14,15 +14,15 @@
     "tooltip": false
   },
   "custom/left-arrw": {
-    "format": "󩈳",
+    "format": "󪤗",
     "tooltip": false
   },
   "custom/right-arrw": {
-    "format": "󩈴",
+    "format": "󪤖",
     "tooltip": false
   },
   "custom/arrow-dec": {
-    "format": " 󩈴 ",
+    "format": " 󪥜 ",
     "tooltip": false
   },
   "custom/app-icon": {
@@ -38,7 +38,7 @@
     "tooltip": false
   },
   "custom/pacman-update": {
-    "format": "󩈭",
+    "format": "󪥔",
     "tooltip": false
   },
   "custom/pacman-update#text": {

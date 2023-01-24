@@ -43,16 +43,16 @@
     "on-scroll-up": "hyprctl dispatch workspace e+1",
     "on-scroll-down": "hyprctl dispatch workspace e-1",
     "format-icons": {
-      "1": "󯌑",
-      "2": "󯤴",
-      "3": "󩈦",
-      "4": "󩈟",
-      "5": "󯌄",
-      "6": "󩈫",
-      "7": "󯌋",
-      "8": "󯌎",
-      "urgent": "",
-      "default": ""
+      "1": "󪤍",
+      "2": "󪤕",
+      "3": "󪥌",
+      "4": "󪥅",
+      "5": "󪤄",
+      "6": "󪤋",
+      "7": "󪤝",
+      "8": "󪤏",
+      "urgent": "󪤳",
+      "default": "󪤾"
     }
   },
   "hyprland/window": {
@@ -69,14 +69,14 @@
   },
   "cpu": {
     "interval": 10,
-    "format": " {}%",
+    "format": "󪤔 {}%",
     "max-length": 10,
     "on-click": "",
     "tooltip": false
   },
   "memory": {
     "interval": 30,
-    "format": "󯤋 {used}G",
+    "format": "󪤲 {used}G",
     "format-alt": " {used:0.1f}G",
     "max-length": 10
   },
@@ -85,41 +85,41 @@
     "format": "{icon} {percent}%",
     "tooltip": false,
     "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪"
     ],
     "on-click": ""
   },
   "network": {
-    "format-wifi": "󩈢 {essid}",
-    "format-ethernet": " wired",
+    "format-wifi": "󪥈 {essid}",
+    "format-ethernet": "󪥈 wired",
     "tooltip": false,
     "format-disconnected": ""
   },
   "pulseaudio": {
     "format": "{icon}",
-    "format-bluetooth": " ",
+    "format-bluetooth": " ",
     "format-bluetooth-muted": " ",
     "tooltip": false,
     "format-muted": "󯤰",
     "format-icons": {
-      "headphone": "󩈠",
-      "hands-free": "󯤎",
-      "headset": "󩈠",
-      "phone": "",
-      "portable": "",
+      "headphone": "󪥆",
+      "hands-free": "󪤥",
+      "headset": "󪥆",
+      "phone": "󪤥",
+      "portable": "",
       "car": "",
       "default": [
-        "󯤠",
-        "󯤠",
-        "󯤠"
+        "󪤦",
+        "󪤦",
+        "󪤒"
       ]
     },
     "on-click": "pavucontrol"
@@ -138,11 +138,11 @@
     },
     "format": "{icon}",
     "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      "󩈯"
+      "󪥖",
+      "󪥝",
+      "󪥞",
+      "󪥞",
+      "󪥟"
     ],
     "max-length": 25,
     "tooltip": false

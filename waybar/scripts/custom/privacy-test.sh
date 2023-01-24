@@ -11,7 +11,7 @@ speaker_check() {
     if [ -z "$check" ]; then
         echo ""
     else
-        echo "󩈆"
+        echo "󪤁"
     fi
 
 }
@@ -21,7 +21,7 @@ mic_check() {
     if [ -z "$check_mic" ]; then
         echo ""
     else
-        echo "󩈙"
+        echo "󪥀"
     fi
 }
 
@@ -30,7 +30,7 @@ cam_check() {
     if [ -z "$check_webcam" ]; then
         echo ""
     else
-        echo "󩈁"
+        echo "󪤧"
     fi
 
 }
