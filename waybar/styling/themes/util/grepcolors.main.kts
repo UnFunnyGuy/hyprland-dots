@@ -176,29 +176,29 @@ fun dunst() {
                 background = DunstMapper("background", null),
                 foreground = DunstMapper("on-background", null),
                 frame = DunstMapper("primary", null),
-                highlight = DunstMapper("green", null)
+                highlight = DunstMapper("surface-tint", null)
             ),
             DunstType(
                 type = "urgency_normal",
                 background = DunstMapper("background", null),
                 foreground = DunstMapper("on-background", null),
                 frame = DunstMapper("primary", null),
-                highlight = DunstMapper("green", null)
+                highlight = DunstMapper("surface-tint", null)
             ),
             DunstType(
                 type = "urgency_critical",
                 background = DunstMapper("background", null),
                 foreground = DunstMapper("on-background", null),
                 frame = DunstMapper("red", null),
-                highlight = DunstMapper("green", null)
+                highlight = DunstMapper("surface-tint", null)
             ),
             DunstType(
                 type = "backlight",
-                highlight = DunstMapper("primary", null)
+                highlight = DunstMapper("surface-tint", null)
             ),
             DunstType(
                 type = "volume",
-                highlight = DunstMapper("primary", null)
+                highlight = DunstMapper("surface-tint", null)
             )
         )
 

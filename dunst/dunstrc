@@ -116,7 +116,7 @@
 
 	# Should a notification popped up from history be sticky or
 	# timeout as if it would normally do.
-	sticky_history = yes
+	sticky_history = no
 
 	# The height of a single line. If the height is smaller than the font height,
 	# it will get raised to the font height.
@@ -180,30 +180,31 @@
 
 
 [urgency_low]
-timeout = 6
+timeout = 4
 background = "#1a1c1e"
 foreground = "#e2e2e5"
 frame_color = "#8ccdff"
-highlight = "#a6da95"
+highlight = "#8ccdff"
 
 
 [urgency_normal]
-timeout = 6
+timeout = 4
 background = "#1a1c1e"
 foreground = "#e2e2e5"
 frame_color = "#8ccdff"
-highlight = "#a6da95"
+highlight = "#8ccdff"
 
 
 [urgency_critical]
-timeout = 6
+timeout = 4
 background = "#1a1c1e"
 foreground = "#e2e2e5"
 frame_color = "#ff6961"
-highlight = "#a6da95"
+highlight = "#8ccdff"
 
 
 [backlight]
+timeout = 1
 summary = "Backlight"
 highlight = "#8ccdff"
 set_stack_tag = "backlight"
