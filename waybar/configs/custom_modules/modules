@@ -25,7 +25,7 @@
     "format": " 󪥜 ",
     "tooltip": false
   },
-  "custom/app-icon": {
+  "custom/app-title-icon": {
     "format": "{}",
     "interval": 1,
     "exec": "~/.config/waybar/scripts/title/icon_check.sh",

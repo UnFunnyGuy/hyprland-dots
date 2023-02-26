@@ -11,7 +11,7 @@
     "custom/launcher",
     "wlr/workspaces",
     "custom/arrow-dec",
-    "custom/app-icon",
+    "custom/app-title-icon",
     "custom/app-name"
   ],
   "modules-center": [

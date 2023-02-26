@@ -1,7 +1,7 @@
 @import "../colors-waybar.css";
 
 #custom-app-name,
-#custom-app-icon,
+#custom-app-title-icon,
 #custom-arrow-dec {
   background-color: @background;
 }
@@ -12,7 +12,7 @@
   color: @green;
 }
 
-#custom-app-icon {
+#custom-app-title-icon {
   margin-left: 1px;
   font-size: 18px;
   color: @primary;
