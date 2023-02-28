@@ -7,20 +7,20 @@ if [ "$1" == "I" ]; then
 elif [ "$1" == "D" ]; then
     pamixer -d 3
 else
-    notify-send "Please use correct args" --icon=$HOME/.config/hypr/scripts/assets/attention.png
+    notify-send "Please use correct args" --icon=$HOME/.config/hypr/scripts/assets/alert.svg
     exit
 fi
 
 volume=$(pamixer --get-volume)
 
 if [ "$volume" == 100 ]; then
-    dunstify -h string:x-dunst-stack-tag:volume "Full Volume"
+    dunstify -h string:x-dunst-stack-tag:volume "Full Volume" --icon=$HOME/.config/hypr/scripts/assets/volume-max.svg
     exit
 elif [ "$volume" == 0 ]; then
-    dunstify -h string:x-dunst-stack-tag:volume "No Volume"
+    dunstify -h string:x-dunst-stack-tag:volume "No Volume" --icon=$HOME/.config/hypr/scripts/assets/muted.svg
     exit
 else
-    dunstify -h string:x-dunst-stack-tag:volume -h int:value:$volume "Volume : $volume"
+    dunstify -h string:x-dunst-stack-tag:volume -h int:value:$volume "Volume : $volume" --icon=$HOME/.config/hypr/scripts/assets/volume-max.svg
     exit
 fi
 
