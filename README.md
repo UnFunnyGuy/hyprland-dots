@@ -1,5 +1,15 @@
 # .config
 
+<br/>
+# Required Packages (optional)
+- font-manager (to install font icons, use font viewer to install)
+- grimblast 
+- dunst
+- pactl
+- brightnessctl
+- pamixer
+- kscript and kotlin if you want to use my retarded scripts
+
 # WORKS FOR ME!! 🚨
 <br/>
 
