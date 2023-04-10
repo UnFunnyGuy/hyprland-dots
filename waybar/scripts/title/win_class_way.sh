@@ -1,15 +1,30 @@
 #!/usr/bin/env bash
 
+# Define the mapping
+declare -A PKGS=(
+  ["Code"]="VsCode"
+  ["Alacritty"]="Alacritty"
+  ["jetbrains-studio"]="Android Studio"
+  ["jetbrains-idea"]="Idea"
+  ["uget-gtk"]="Uget"
+  ["org.gnome.Nautilus"]="File Manager"
+  ["thunar"]="File Manager"
+  ["org.telegram.desktop"]="Telegram"
+  ["Google-Chrome"]="Chrome"
+)
+
 app_name=$(hyprctl activewindow | grep -oP 'class: \K[^\s]+')
 
-case "$app_name" in
-"Code") echo "VSCode" ;;
-"jetbrains-studio") echo "Android Studio" ;;
-"waybar") echo "hyprland" ;;
-"jetbrains-idea") echo "Intellij" ;;
-"uget-gtk") echo "Uget" ;;
-"appimagekit_d2192f48ebc43a9db26e1dfa2bc5097b-Kotatogram_Desktop") echo "Telegram" ;;
-"org.gnome.Nautilus") echo "File Manager" ;;
-"Google-Chrome") echo "Chrome" ;;
-*) echo "${app_name^}" ;;
-esac
+# Check if app_name is null
+if [ -z "$app_name" ]; then
+  echo "${app_name}"
+else
+
+ # Retrieve the PKS from the mapping
+  pkg=${PKGS[$app_name]}
+
+  # Echo the symbol if it's not empty
+  if [ -n "$pkg" ]; then
+    echo "$pkg"
+  fi
+fi
