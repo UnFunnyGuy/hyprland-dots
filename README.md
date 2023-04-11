@@ -2,14 +2,22 @@
 
 <br/>
 # Required Packages (optional)
+<br/>
 - font-manager (to install font icons, use font viewer to install)
+<br/>
 - grimblast 
+<br/>
 - dunst
+<br/>
 - pactl
+<br/>
 - brightnessctl
+<br/>
 - pamixer
+<br/>
 - kscript and kotlin if you want to use my retarded scripts
-
+<br/>
+<br/>
 # WORKS FOR ME!! 🚨
 <br/>
 
