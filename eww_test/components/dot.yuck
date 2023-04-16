@@ -1,0 +1,10 @@
+(defwidget dot []
+    (box 
+        :orientation "h"
+        :valign "center"
+            (label 
+                :class "dot" 
+                :text ""
+            )
+    )
+)
