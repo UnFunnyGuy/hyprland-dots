@@ -17,12 +17,16 @@ declare -A PKGS=(
 app_name=$(hyprctl activewindow | grep -oP 'class: \K[^\s]+')
 
 
- # Retrieve the PKS from the mapping
-  pkg=${PKGS[$app_name]}
+ # Check if the app_name is a valid key in the PKGS array
+if [[ ${PKGS["$app_name"]+abc} ]]; then
+  pkg=${PKGS["$app_name"]}
+else
+  pkg=""
+fi
 
-  # Echo the symbol if it's not empty
-  if [ -n "$pkg" ]; then
-    echo "$pkg"
-  else
+# Echo the symbol if it's not empty
+if [ -n "$pkg" ]; then
+  echo "$pkg"
+else
   echo "$app_name"
 fi
