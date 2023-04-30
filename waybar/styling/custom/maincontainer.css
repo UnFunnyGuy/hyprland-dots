@@ -13,6 +13,7 @@
 #pulseaudio.text,
 #custom-pacman-update.text {
   font-size: 12px;
+  font-weight: 800;
   color: @on-secondary-container;
 }
 
