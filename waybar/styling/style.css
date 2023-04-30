@@ -16,19 +16,3 @@
   font-family: JetBrainsMono Nerd Font;
   font-size: 15px;
 }
-
-#memory {
-  color: @primary;
-}
-
-#backlight {
-  color: @primary;
-}
-
-#network {
-  color: @on-background;
-}
-
-#network.disconnected {
-  color: @secondary;
-}

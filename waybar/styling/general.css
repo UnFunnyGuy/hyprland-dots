@@ -1,7 +1,9 @@
 @import "colors-waybar.css";
 
-label#memory,
-label#backlight,
+label#cpu,
+label#disk,
+label#temperature,
+label#memory
 label#network {
   margin-top: 6px;
   margin-bottom: 6px;
@@ -13,7 +15,6 @@ label#network {
 #cpu,
 #disk,
 #temperature,
-#backlight,
 #network,
 #mode,
 #idle_inhibitor {
@@ -31,6 +32,18 @@ label#network {
 #cpu {
   color: #fb958b;
   background-color: #bf616a;
+}
+
+#memory {
+  color: @primary;
+}
+
+#network {
+  color: @on-background;
+}
+
+#network.disconnected {
+  color: @secondary;
 }
 
 /* If workspaces is the leftmost module, omit left margin */

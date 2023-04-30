@@ -32,6 +32,8 @@
     "custom/pacman-update#text",
     "pulseaudio",
     "pulseaudio#text",
+    "backlight",
+    "backlight#text",
     "custom/dot-alt",
     "clock"
   ],
@@ -79,23 +81,6 @@
     "format": "󪤲 {used}G",
     "format-alt": " {used:0.1f}G",
     "max-length": 10
-  },
-  "backlight": {
-    "device": "DP-1",
-    "format": "{icon} {percent}%",
-    "tooltip": false,
-    "format-icons": [
-      "󪤪",
-      "󪤪",
-      "󪤪",
-      "󪤪",
-      "󪤪",
-      "󪤪",
-      "󪤪",
-      "󪤪",
-      "󪤪"
-    ],
-    "on-click": ""
   },
   "network": {
     "format-wifi": "󪥈 {essid}",
@@ -156,6 +141,30 @@
     },
     "format": "<b>{capacity}</b>",
     "max-length": 25,
+    "tooltip": false
+  },
+  "backlight": {
+    "device": "DP-1",
+    "format": "{icon}",
+    "tooltip": false,
+    "format-icons": [
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪",
+      "󪤪"
+    ],
+    "on-click": ""
+  },
+  "backlight#text": {
+    "device": "DP-1",
+    "format": "{percent}",
+    "interval": 15,
+    "exec": "",
     "tooltip": false
   }
 }
