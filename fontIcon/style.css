@@ -1,0 +1,425 @@
+@font-face {
+  font-family: 'Madness';
+  src:  url('fonts/Madness.eot?6py470');
+  src:  url('fonts/Madness.eot?6py470#iefix') format('embedded-opentype'),
+    url('fonts/Madness.ttf?6py470') format('truetype'),
+    url('fonts/Madness.woff?6py470') format('woff'),
+    url('fonts/Madness.svg?6py470#Madness') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mad-"], [class*=" mad-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Madness' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mad-wifi:before {
+  content: "\ea900";
+  color: #fff;
+}
+.mad-speaker-3:before {
+  content: "\ea901";
+}
+.mad-smart-home:before {
+  content: "\ea902";
+  color: #fff;
+}
+.mad-note-square:before {
+  content: "\ea903";
+  color: #fff;
+}
+.mad-message-programming:before {
+  content: "\ea904";
+  color: #fff;
+}
+.mad-home-wifi:before {
+  content: "\ea905";
+  color: #fff;
+}
+.mad-home:before {
+  content: "\ea906";
+  color: #fff;
+}
+.mad-folder-cloud:before {
+  content: "\ea907";
+  color: #fff;
+}
+.mad-folder-2:before {
+  content: "\ea908";
+  color: #fff;
+}
+.mad-emoji-happy:before {
+  content: "\ea909";
+  color: #fff;
+}
+.mad-electricity:before {
+  content: "\ea90a";
+  color: #fff;
+}
+.mad-document-code-2:before {
+  content: "\ea90b";
+  color: #fff;
+}
+.mad-danger:before {
+  content: "\ea90c";
+  color: #fff;
+}
+.mad-code:before {
+  content: "\ea90d";
+  color: #fff;
+}
+.mad-cloud-add:before {
+  content: "\ea90e";
+  color: #fff;
+}
+.mad-audio-square:before {
+  content: "\ea90f";
+  color: #fff;
+}
+.mad-arrange-square-2:before {
+  content: "\ea910";
+  color: #fff;
+}
+.mad-volume-slash:before {
+  content: "\ea911";
+  color: #fff;
+}
+.mad-volume-high:before {
+  content: "\ea912";
+  color: #fff;
+}
+.mad-flash-slash:before {
+  content: "\ea913";
+  color: #fff;
+}
+.mad-cpu:before {
+  content: "\ea914";
+  color: #fff;
+}
+.mad-chrome:before {
+  content: "\ea915";
+  color: #fff;
+}
+.mad-Arrow---Right-2:before {
+  content: "\ea916";
+  color: #fff;
+}
+.mad-Arrow---Left-2:before {
+  content: "\ea917";
+  color: #fff;
+}
+.mad-toggle-on-circle:before {
+  content: "\ea918";
+  color: #fff;
+}
+.mad-toggle-on:before {
+  content: "\ea919";
+  color: #fff;
+}
+.mad-toggle-off-circle:before {
+  content: "\ea91a";
+  color: #fff;
+}
+.mad-toggle-off:before {
+  content: "\ea91b";
+  color: #fff;
+}
+.mad-shield-tick:before {
+  content: "\ea91c";
+  color: #fff;
+}
+.mad-setting-3:before {
+  content: "\ea91d";
+  color: #fff;
+}
+.mad-search-normal:before {
+  content: "\ea91e";
+  color: #fff;
+}
+.mad-ram-2:before {
+  content: "\ea91f";
+  color: #fff;
+}
+.mad-main-component:before {
+  content: "\ea920";
+  color: #fff;
+}
+.mad-hashtag-up:before {
+  content: "\ea921";
+  color: #fff;
+}
+.mad-driver:before {
+  content: "\ea922";
+  color: #fff;
+}
+.mad-category:before {
+  content: "\ea923";
+  color: #fff;
+}
+.mad-bucket-square:before {
+  content: "\ea924";
+  color: #fff;
+}
+.mad-airpods:before {
+  content: "\ea925";
+  color: #fff;
+}
+.mad-volume-low:before {
+  content: "\ea926";
+  color: #fff;
+}
+.mad-video:before {
+  content: "\ea927";
+  color: #fff;
+}
+.mad-timer:before {
+  content: "\ea928";
+  color: #fff;
+}
+.mad-task-square:before {
+  content: "\ea929";
+  color: #fff;
+}
+.mad-sun:before {
+  content: "\ea92a";
+  color: #fff;
+}
+.mad-stop-circle:before {
+  content: "\ea92b";
+  color: #fff;
+}
+.mad-speaker:before {
+  content: "\ea92c";
+  color: #fff;
+}
+.mad-sms-star:before {
+  content: "\ea92d";
+  color: #fff;
+}
+.mad-sms-notification:before {
+  content: "\ea92e";
+  color: #fff;
+}
+.mad-sms:before {
+  content: "\ea92f";
+  color: #fff;
+}
+.mad-record-circle:before {
+  content: "\ea930";
+  color: #fff;
+}
+.mad-receive-square:before {
+  content: "\ea931";
+  color: #fff;
+}
+.mad-ram:before {
+  content: "\ea932";
+  color: #fff;
+}
+.mad-profile-tick:before {
+  content: "\ea933";
+  color: #fff;
+}
+.mad-printer:before {
+  content: "\ea934";
+  color: #fff;
+}
+.mad-previous:before {
+  content: "\ea935";
+  color: #fff;
+}
+.mad-play-circle:before {
+  content: "\ea936";
+  color: #fff;
+}
+.mad-pause-circle:before {
+  content: "\ea937";
+  color: #fff;
+}
+.mad-notification:before {
+  content: "\ea938";
+  color: #fff;
+}
+.mad-note-square1:before {
+  content: "\ea939";
+  color: #fff;
+}
+.mad-note-favorite:before {
+  content: "\ea93a";
+  color: #fff;
+}
+.mad-next:before {
+  content: "\ea93b";
+  color: #fff;
+}
+.mad-mouse:before {
+  content: "\ea93c";
+  color: #fff;
+}
+.mad-moon:before {
+  content: "\ea93d";
+  color: #fff;
+}
+.mad-monitor:before {
+  content: "\ea93e";
+  color: #fff;
+}
+.mad-microphone-2:before {
+  content: "\ea93f";
+  color: #fff;
+}
+.mad-microphone:before {
+  content: "\ea940";
+  color: #fff;
+}
+.mad-location:before {
+  content: "\ea941";
+  color: #fff;
+}
+.mad-key:before {
+  content: "\ea942";
+  color: #fff;
+}
+.mad-instagram:before {
+  content: "\ea943";
+  color: #fff;
+}
+.mad-home-2:before {
+  content: "\ea944";
+  color: #fff;
+}
+.mad-hierarchy-square:before {
+  content: "\ea945";
+  color: #fff;
+}
+.mad-headphone:before {
+  content: "\ea946";
+  color: #fff;
+}
+.mad-forward:before {
+  content: "\ea947";
+  color: #fff;
+}
+.mad-flash:before {
+  content: "\ea948";
+  color: #fff;
+}
+.mad-driver-refresh:before {
+  content: "\ea949";
+  color: #fff;
+}
+.mad-cpu-setting:before {
+  content: "\ea94a";
+  color: #fff;
+}
+.mad-cpu-charge:before {
+  content: "\ea94b";
+  color: #fff;
+}
+.mad-code1:before {
+  content: "\ea94c";
+  color: #fff;
+}
+.mad-cloud-sunny:before {
+  content: "\ea94d";
+  color: #fff;
+}
+.mad-cloud-notif:before {
+  content: "\ea94e";
+  color: #fff;
+}
+.mad-cloud:before {
+  content: "\ea94f";
+  color: #fff;
+}
+.mad-clock:before {
+  content: "\ea950";
+  color: #fff;
+}
+.mad-chart-2:before {
+  content: "\ea951";
+  color: #fff;
+}
+.mad-category1:before {
+  content: "\ea952";
+  color: #fff;
+}
+.mad-calendar-2:before {
+  content: "\ea953";
+  color: #fff;
+}
+.mad-box:before {
+  content: "\ea954";
+  color: #fff;
+}
+.mad-bluetooth-2:before {
+  content: "\ea955";
+  color: #fff;
+}
+.mad-battery:before {
+  content: "\ea956";
+  color: #fff;
+}
+.mad-battery-charging:before {
+  content: "\ea957";
+  color: #fff;
+}
+.mad-backward:before {
+  content: "\ea958";
+  color: #fff;
+}
+.mad-arrow-left:before {
+  content: "\ea959";
+  color: #fff;
+}
+.mad-activity:before {
+  content: "\ea95a";
+  color: #fff;
+}
+.mad-tick-circle:before {
+  content: "\ea95b";
+  color: #fff;
+}
+.mad-arrow-right:before {
+  content: "\ea95c";
+  color: #fff;
+}
+.mad-battery-10:before {
+  content: "\ea95d";
+  color: #fff;
+}
+.mad-battery-50:before {
+  content: "\ea95e";
+  color: #fff;
+}
+.mad-battery-full:before {
+  content: "\ea95f";
+  color: #fff;
+}
+.mad-battery-disable:before {
+  content: "\ea960";
+  color: #fff;
+}
+.mad-grid-2:before {
+  content: "\ea961";
+  color: #fff;
+}
+.mad-scroll:before {
+  content: "\ea962";
+  color: #fff;
+}
+.mad-Send_fill-1:before {
+  content: "\ea963";
+}
