@@ -9,7 +9,7 @@
   "spacing": 0,
   "modules-left": [
     "custom/launcher",
-    "wlr/workspaces",
+    "hyprland/workspaces",
     "custom/arrow-dec",
     "custom/app-title-icon",
     "custom/app-name"
@@ -37,7 +37,7 @@
     "custom/dot-alt",
     "clock"
   ],
-  "wlr/workspaces": {
+  "hyprland/workspaces": {
     "all-outputs": false,
     "active-only": "false",
     "on-click": "activate",
