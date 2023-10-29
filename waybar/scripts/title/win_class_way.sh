@@ -21,7 +21,7 @@ app_name=$(hyprctl activewindow | grep -oP 'class: \K[^\s]+')
 if [[ ${PKGS["$app_name"]+abc} ]]; then
   pkg=${PKGS["$app_name"]}
 else
-  pkg=""
+  pkg= ""
 fi
 
 # Echo the symbol if it's not empty
