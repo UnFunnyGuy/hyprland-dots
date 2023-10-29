@@ -2,7 +2,7 @@
   "include": "~/.config/waybar/configs/custom_modules/privacy_container",
   "custom/launcher": {
     "format": " 󪤆 ",
-    "on-click": "~/.config/rofi/launchers/type-1/launcher.sh",
+    "on-click": "", 
     "tooltip": false
   },
   "custom/dot": {
@@ -43,8 +43,9 @@
   },
   "custom/pacman-update#text": {
     "format": "<b>{}</b>",
-    "interval": 15,
+    "interval": 60,
     "exec": "~/.config/waybar/scripts/pacman-update-icon.sh",
     "tooltip": false
   }
+  
 }
