@@ -81,6 +81,6 @@ if [[ $arg =~ ^[+-]?[0-9]+$ ]]; then
     fi
     exit
 else
-    dunstify -h string:x-dunst-stack-tag:brightness "Invalid argument." "Please provide a positive value (e.g., 5) or a negative value (e.g., -5)."
+    dunstify -h string:x-dunst-stack-tag:brightness_ext "Invalid argument." "Please use a frkn Number (e.g., 5) or a negative value (e.g., -5)."
     exit
 fi
