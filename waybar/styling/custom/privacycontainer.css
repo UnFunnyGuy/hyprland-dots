@@ -1,42 +1,18 @@
 @import "../colors-waybar.css";
 
-#custom-left,
-#custom-right,
-#custom-priv-cam,
-#custom-priv-mic,
-#custom-priv-speaker {
-  font-size: 13px;
-  padding: 2px;
-  color: @on-background;
-  background-color: @background;
+
+#privacy-container .text-button {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-label#custom-priv-cam,
-label#custom-left,
-label#custom-right,
-label#custom-priv-mic,
-label#custom-priv-speaker {
-  color: @on-primary-container;
-  margin-top: 10px;
-  margin-bottom: 10px;
+box#privacy-container {
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 5px;
   background-color: @primary-container;
-}
-
-
-label#custom-priv-cam,
-label#custom-priv-speaker,
-label#custom-priv-mic {
-  padding-left: 6px;
-  padding-right: 6px;
-}
-
-
-label#custom-left {
-  border-top-left-radius: 16px;
-  border-bottom-left-radius: 16px;
-}
-
-label#custom-right {
-  border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px;
+  border-radius: 10px;
 }

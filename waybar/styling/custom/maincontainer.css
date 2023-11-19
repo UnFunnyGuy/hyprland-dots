@@ -35,8 +35,8 @@ label#pulseaudio.text {
 label#battery {
   padding-left: 15px;
   padding-right: 2px;
-  border-top-left-radius: 13px;
-  border-bottom-left-radius: 13px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 label#battery.text {

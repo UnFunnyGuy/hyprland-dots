@@ -13,6 +13,8 @@ declare -A SYMBOLS=(
   ["org.telegram.desktop"]="󪥣"
   ["Google-Chrome"]="󪤕"
   ["firefox"]="󪤕"
+  ["Spotify"]="󪥵"
+  ["GitKraken"]="󪥨"
 )
 
 # Get the app name

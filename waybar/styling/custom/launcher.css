@@ -1,15 +1,24 @@
 @import "../colors-waybar.css";
 
+#custom-power,
+#custom-reboot,
+#custom-quit,
 #custom-launcher {
-  background-color: @background;
+  font-size: 16px;
+  margin: 8px;
+  color: @on-primary-container;
 }
 
 label#custom-launcher {
-  font-size: 16px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  margin-left: 8px;
-  margin-right: 8px;
-  color: @primary;
-  background-color: @background;
+  padding-left: 5px;
+  padding-right: 5px;
 }
+
+box#launcher {
+  margin: 7px;
+  border-radius: 10px;
+  background-color: alpha(@primary-container,0.75);
+}
+
+
+

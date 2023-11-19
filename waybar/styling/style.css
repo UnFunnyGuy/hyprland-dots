@@ -9,7 +9,8 @@
 @import "custom/apptitle.css";
 @import "custom/clock.css";
 @import "custom/privacycontainer.css";
-@import "custom/maincontainer.css";
+@import "custom/systemcontainer.css";
+
 
 * {
   border: none;

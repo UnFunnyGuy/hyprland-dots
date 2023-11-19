@@ -1,0 +1,42 @@
+@import "../colors-waybar.css";
+
+
+box#system-container {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: alpha(@secondary-container, 0.75);
+    border-radius: 10px;
+    /* border: 2px solid alpha(@secondary-container,0.95); */
+}
+
+#backlight,
+#pulseaudio,
+#custom-pacman-update,
+#battery {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
+/*old-conf, needs change*/
+
+#backlight,
+#pulseaudio,
+#custom-pacman-update {
+    font-size: 18px;
+    color: @primary;
+}
+
+
+#battery.text,
+#backlight.text,
+#pulseaudio.text,
+#custom-pacman-update.text {
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: @on-secondary-container;
+}

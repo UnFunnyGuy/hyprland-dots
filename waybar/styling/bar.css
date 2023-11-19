@@ -9,3 +9,11 @@ window#waybar {
 window#waybar.hidden {
   opacity: 0.2;
 }
+
+#waybar .horizontal {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+

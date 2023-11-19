@@ -1,0 +1,137 @@
+{
+
+    "group/system-container": {
+        "orientation": "horizontal",
+        "modules": [
+            "group/battery-grp",
+            "group/pacman-grp",
+            "group/pulseaudio-grp",
+            "group/backlight-grp"
+        ]
+    },
+
+    "group/pacman-grp": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/pacman-update",
+            "custom/pacman-update#text"
+        ]
+    },
+    "group/pulseaudio-grp": {
+        "orientation": "horizontal",
+        "modules": [
+            "pulseaudio",
+            "pulseaudio#text"
+        ]
+    },
+    "group/battery-grp": {
+        "orientation": "horizontal",
+        "modules": [
+            "battery",
+            "battery#text"
+        ]
+    },
+    "group/backlight-grp": {
+        "orientation": "horizontal",
+        "modules": [
+            "backlight",
+            "backlight#text"
+        ]
+    },
+
+
+
+    "custom/pacman-update": {
+        "format": "󪥔",
+        "tooltip": false
+    },
+    "custom/pacman-update#text": {
+        "format": "<b>{}</b>",
+        "interval": 60,
+        "exec": "~/.config/waybar/scripts/pacman-update-icon.sh",
+        "tooltip": false
+    },
+
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-bluetooth": " ",
+        "format-bluetooth-muted": " ",
+        "tooltip": false,
+        "format-muted": "󯤰",
+        "format-icons": {
+            "headphone": "󪥆",
+            "hands-free": "󪤥",
+            "headset": "󪥆",
+            "phone": "󪤥",
+            "portable": "",
+            "car": "",
+            "default": [
+                "󪤦",
+                "󪤦",
+                "󪤒"
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+    "pulseaudio#text": {
+        "tooltip": false,
+        "format": "<b>{volume}</b>",
+        "format-bluetooth": "{volume}"
+    },
+
+    "battery": {
+        "bat": "BAT1",
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}",
+        "format-icons": [
+            "󪥖",
+            "󪥝",
+            "󪥞",
+            "󪥞",
+            "󪥟"
+        ],
+        "max-length": 25,
+        "tooltip": false
+    },
+    "battery#text": {
+        "bat": "BAT1",
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "<b>{capacity}</b>",
+        "max-length": 25,
+        "tooltip": false
+    },
+
+    
+    "backlight": {
+        "device": "DP-1",
+        "format": "{icon}",
+        "tooltip": false,
+        "format-icons": [
+            "󪤪",
+            "󪤪",
+            "󪤪",
+            "󪤪",
+            "󪤪",
+            "󪤪",
+            "󪤪",
+            "󪤪",
+            "󪤪"
+        ],
+        "on-click": ""
+    },
+    "backlight#text": {
+        "device": "DP-1",
+        "format": "{percent}",
+        "interval": 15,
+        "exec": "",
+        "tooltip": false
+    }
+}

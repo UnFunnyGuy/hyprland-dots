@@ -20,7 +20,6 @@ label#network {
 #idle_inhibitor {
   padding: 0 0px;
   color: @on-background;
-  background-color: @background;
 }
 
 #window {
@@ -30,8 +29,7 @@ label#network {
 }
 
 #cpu {
-  color: #fb958b;
-  background-color: #bf616a;
+  color: @primary;
 }
 
 #memory {

@@ -1,10 +1,4 @@
 {
-  "include": "~/.config/waybar/configs/custom_modules/privacy_container",
-  "custom/launcher": {
-    "format": " 󪤆 ",
-    "on-click": "", 
-    "tooltip": false
-  },
   "custom/dot": {
     "format": "  ",
     "tooltip": false
@@ -36,16 +30,5 @@
     "interval": 1,
     "exec": "~/.config/waybar/scripts/title/win_class_way.sh",
     "tooltip": false
-  },
-  "custom/pacman-update": {
-    "format": "󪥔",
-    "tooltip": false
-  },
-  "custom/pacman-update#text": {
-    "format": "<b>{}</b>",
-    "interval": 60,
-    "exec": "~/.config/waybar/scripts/pacman-update-icon.sh",
-    "tooltip": false
   }
-  
 }
