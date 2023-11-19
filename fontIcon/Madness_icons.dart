@@ -12,17 +12,30 @@ class Madness {
 
   static const String _fontFamily = 'Madness';
 
+  static const IconData clock1 = IconData(0xea976, fontFamily: _fontFamily);
+  static const IconData spotify = IconData(0xea975, fontFamily: _fontFamily);
+  static const IconData linux = IconData(0xea974, fontFamily: _fontFamily);
+  static const IconData globe = IconData(0xea973, fontFamily: _fontFamily);
+  static const IconData gitlab = IconData(0xea972, fontFamily: _fontFamily);
+  static const IconData github2 = IconData(0xea969, fontFamily: _fontFamily);
+  static const IconData dev2 = IconData(0xea971, fontFamily: _fontFamily);
+  static const IconData android = IconData(0xea970, fontFamily: _fontFamily);
+  static const IconData github = IconData(0xea968, fontFamily: _fontFamily);
+  static const IconData electricity = IconData(0xea967, fontFamily: _fontFamily);
+  static const IconData box_time = IconData(0xea966, fontFamily: _fontFamily);
+  static const IconData box_tick = IconData(0xea965, fontFamily: _fontFamily);
+  static const IconData moon = IconData(0xea964, fontFamily: _fontFamily);
   static const IconData wifi = IconData(0xea900, fontFamily: _fontFamily);
   static const IconData speaker_3 = IconData(0xea901, fontFamily: _fontFamily);
   static const IconData smart_home = IconData(0xea902, fontFamily: _fontFamily);
-  static const IconData note_square = IconData(0xea903, fontFamily: _fontFamily);
+  static const IconData music_square = IconData(0xea903, fontFamily: _fontFamily);
   static const IconData message_programming = IconData(0xea904, fontFamily: _fontFamily);
   static const IconData home_wifi = IconData(0xea905, fontFamily: _fontFamily);
   static const IconData home = IconData(0xea906, fontFamily: _fontFamily);
   static const IconData folder_cloud = IconData(0xea907, fontFamily: _fontFamily);
   static const IconData folder_2 = IconData(0xea908, fontFamily: _fontFamily);
   static const IconData emoji_happy = IconData(0xea909, fontFamily: _fontFamily);
-  static const IconData electricity = IconData(0xea90a, fontFamily: _fontFamily);
+  static const IconData electricity1 = IconData(0xea90a, fontFamily: _fontFamily);
   static const IconData document_code_2 = IconData(0xea90b, fontFamily: _fontFamily);
   static const IconData danger = IconData(0xea90c, fontFamily: _fontFamily);
   static const IconData code = IconData(0xea90d, fontFamily: _fontFamily);
@@ -73,7 +86,7 @@ class Madness {
   static const IconData note_favorite = IconData(0xea93a, fontFamily: _fontFamily);
   static const IconData next = IconData(0xea93b, fontFamily: _fontFamily);
   static const IconData mouse = IconData(0xea93c, fontFamily: _fontFamily);
-  static const IconData moon = IconData(0xea93d, fontFamily: _fontFamily);
+  static const IconData moon1 = IconData(0xea93d, fontFamily: _fontFamily);
   static const IconData monitor = IconData(0xea93e, fontFamily: _fontFamily);
   static const IconData microphone_2 = IconData(0xea93f, fontFamily: _fontFamily);
   static const IconData microphone = IconData(0xea940, fontFamily: _fontFamily);
@@ -111,5 +124,5 @@ class Madness {
   static const IconData battery_disable = IconData(0xea960, fontFamily: _fontFamily);
   static const IconData grid_2 = IconData(0xea961, fontFamily: _fontFamily);
   static const IconData scroll = IconData(0xea962, fontFamily: _fontFamily);
-  static const IconData Send_fill_1 = IconData(0xea963, fontFamily: _fontFamily);
+  static const IconData send = IconData(0xea963, fontFamily: _fontFamily);
 }

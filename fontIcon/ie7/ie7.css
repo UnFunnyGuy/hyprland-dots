@@ -1,3 +1,42 @@
+.mad-clock1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea976;');
+}
+.mad-spotify {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea975;');
+}
+.mad-linux {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea974;');
+}
+.mad-globe {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea973;');
+}
+.mad-gitlab {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea972;');
+}
+.mad-github2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea969;');
+}
+.mad-dev2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea971;');
+}
+.mad-android {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea970;');
+}
+.mad-github {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea968;');
+}
+.mad-electricity {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea967;');
+}
+.mad-box-time {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea966;');
+}
+.mad-box-tick {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea965;');
+}
+.mad-moon {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea964;');
+}
 .mad-wifi {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea900;');
 }
@@ -7,7 +46,7 @@
 .mad-smart-home {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea902;');
 }
-.mad-note-square {
+.mad-music-square {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea903;');
 }
 .mad-message-programming {
@@ -28,7 +67,7 @@
 .mad-emoji-happy {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea909;');
 }
-.mad-electricity {
+.mad-electricity1 {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea90a;');
 }
 .mad-document-code-2 {
@@ -181,7 +220,7 @@
 .mad-mouse {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea93c;');
 }
-.mad-moon {
+.mad-moon1 {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea93d;');
 }
 .mad-monitor {
@@ -295,7 +334,7 @@
 .mad-scroll {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea962;');
 }
-.mad-Send_fill-1 {
+.mad-send {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea963;');
 }
 

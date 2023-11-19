@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Madness';
-  src:  url('fonts/Madness.eot?6py470');
-  src:  url('fonts/Madness.eot?6py470#iefix') format('embedded-opentype'),
-    url('fonts/Madness.ttf?6py470') format('truetype'),
-    url('fonts/Madness.woff?6py470') format('woff'),
-    url('fonts/Madness.svg?6py470#Madness') format('svg');
+  src:  url('fonts/Madness.eot?p830wn');
+  src:  url('fonts/Madness.eot?p830wn#iefix') format('embedded-opentype'),
+    url('fonts/Madness.ttf?p830wn') format('truetype'),
+    url('fonts/Madness.woff?p830wn') format('woff'),
+    url('fonts/Madness.svg?p830wn#Madness') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,9 +25,52 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mad-clock1:before {
+  content: "\ea976";
+  color: #fff;
+}
+.mad-spotify:before {
+  content: "\ea975";
+}
+.mad-linux:before {
+  content: "\ea974";
+}
+.mad-globe:before {
+  content: "\ea973";
+}
+.mad-gitlab:before {
+  content: "\ea972";
+}
+.mad-github2:before {
+  content: "\ea969";
+}
+.mad-dev2:before {
+  content: "\ea971";
+}
+.mad-android:before {
+  content: "\ea970";
+}
+.mad-github:before {
+  content: "\ea968";
+}
+.mad-electricity:before {
+  content: "\ea967";
+  color: #fff;
+}
+.mad-box-time:before {
+  content: "\ea966";
+  color: #fff;
+}
+.mad-box-tick:before {
+  content: "\ea965";
+  color: #fff;
+}
+.mad-moon:before {
+  content: "\ea964";
+  color: #fff;
+}
 .mad-wifi:before {
   content: "\ea900";
-  color: #fff;
 }
 .mad-speaker-3:before {
   content: "\ea901";
@@ -36,7 +79,7 @@
   content: "\ea902";
   color: #fff;
 }
-.mad-note-square:before {
+.mad-music-square:before {
   content: "\ea903";
   color: #fff;
 }
@@ -64,7 +107,7 @@
   content: "\ea909";
   color: #fff;
 }
-.mad-electricity:before {
+.mad-electricity1:before {
   content: "\ea90a";
   color: #fff;
 }
@@ -268,7 +311,7 @@
   content: "\ea93c";
   color: #fff;
 }
-.mad-moon:before {
+.mad-moon1:before {
   content: "\ea93d";
   color: #fff;
 }
@@ -420,6 +463,6 @@
   content: "\ea962";
   color: #fff;
 }
-.mad-Send_fill-1:before {
+.mad-send:before {
   content: "\ea963";
 }
