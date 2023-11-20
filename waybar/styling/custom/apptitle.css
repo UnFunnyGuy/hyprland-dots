@@ -1,32 +1,56 @@
 @import "../colors-waybar.css";
 
-#custom-app-name,
-#custom-app-title-icon,
-#custom-arrow-dec {
-  background-color: @background;
-}
 
 #custom-arrow-dec {
   margin-left: 2px;
   font-size: 20px;
-  color: @green;
-}
-
-#custom-app-title-icon {
-  margin-left: 1px;
-  font-size: 18px;
   color: @primary;
 }
 
-#custom-app-name {
-  margin-left: 5px;
-  font-size: 16px;
-  color: @on-background;
+#custom-app-title-icon {
+  margin: 4px;
+  font-size: 25px;
+  color: alpha(@on-secondary-container,0.75);
+  background-color: alpha(@secondary-container, 0.55);
+  border-radius: 10px;
+  padding: 2px;
 }
+
+#custom-app-title-icon.Spotify { color: alpha(@green,0.75) }
+#custom-app-title-icon.VsCode { color: alpha(@pastel-green,0.55) }
+#custom-app-title-icon.Firefox { 
+  color: alpha(@pastel-firefox-orange,0.75);
+  background-color: alpha(@pastel-firefox-orange,0.25)
+ }
+#custom-app-title-icon.Idea { color: alpha(@pastel-jetbrains-blue,0.75) }
+#custom-app-title-icon.Chrome { color: alpha(@pastel-chrome-yellow,0.75) }
+#custom-app-title-icon.Telegram { 
+  color: alpha(@pastel-telegram-blue,0.75);
+  background-color: alpha(@pastel-telegram-blue,0.25)
+ }
+
+
+
 
 label#custom-app-name {
   margin-left: 5px;
+  margin-right: 5px;
   font-size: 16px;
-  color: @on-background;
+  color: alpha(@on-secondary-container,0.88);
   padding: 5px; 
+}
+
+box#app-title-container {
+  margin-right: 5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 5px;
+  background-color: alpha(@secondary-container, 0.25);
+  border-radius: 10px;
+}
+
+#app-title-container widget.noicon {
+  background-color: blue;
+  border-radius: 10px;
 }

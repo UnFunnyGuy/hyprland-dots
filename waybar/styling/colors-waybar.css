@@ -2,3 +2,21 @@
 /**
 Change import to switch theme
 **/
+
+@define-color pastel-blue #add8e6;
+@define-color pastel-pink #ffb6c1;
+@define-color pastel-green #98fb98;
+@define-color pastel-yellow #fdfd96;
+@define-color pastel-purple #b19cd9;
+@define-color pastel-orange #ffcc99;
+@define-color pastel-lavender #e6e6fa;
+@define-color pastel-mint #98ff98;
+@define-color pastel-peach #ffdab9;
+
+
+@define-color pastel-firefox-orange #ffa07a;
+@define-color pastel-jetbrains-blue #87ceeb;
+@define-color pastel-chrome-yellow #ffec8b;
+@define-color pastel-telegram-blue #66a2ff;
+@define-color pastel-chrome-blue #a6c0fe;
+@define-color pastel-gitkraken-purple #A080E3;

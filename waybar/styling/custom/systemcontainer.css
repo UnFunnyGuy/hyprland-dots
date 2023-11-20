@@ -35,8 +35,12 @@ box#system-container {
 #pulseaudio.text,
 #custom-pacman-update.text {
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 800;
     margin-left: 3px;
     margin-right: 3px;
     color: @on-secondary-container;
+}
+
+#custom-pacman-update.uptodate {
+    color: @green;
 }

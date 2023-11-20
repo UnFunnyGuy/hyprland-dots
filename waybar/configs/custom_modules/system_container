@@ -45,11 +45,13 @@
         "format": "󪥔",
         "tooltip": false
     },
+    
     "custom/pacman-update#text": {
         "format": "<b>{}</b>",
         "interval": 60,
         "exec": "~/.config/waybar/scripts/pacman-update-icon.sh",
-        "tooltip": false
+        "tooltip": false,
+        "return-type": "json"
     },
 
     "pulseaudio": {
@@ -57,7 +59,7 @@
         "format-bluetooth": " ",
         "format-bluetooth-muted": " ",
         "tooltip": false,
-        "format-muted": "󯤰",
+        "format-muted": "󪤑",
         "format-icons": {
             "headphone": "󪥆",
             "hands-free": "󪤥",
@@ -129,7 +131,7 @@
     },
     "backlight#text": {
         "device": "DP-1",
-        "format": "{percent}",
+        "format": "<b>{percent}</b>",
         "interval": 15,
         "exec": "",
         "tooltip": false

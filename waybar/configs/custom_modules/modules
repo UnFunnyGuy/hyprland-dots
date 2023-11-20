@@ -18,17 +18,5 @@
   "custom/arrow-dec": {
     "format": " 󪥜 ",
     "tooltip": false
-  },
-  "custom/app-title-icon": {
-    "format": "{}",
-    "interval": 1,
-    "exec": "~/.config/waybar/scripts/title/icon_check.sh",
-    "tooltip": false
-  },
-  "custom/app-name": {
-    "format": "<b>{}</b>",
-    "interval": 1,
-    "exec": "~/.config/waybar/scripts/title/win_class_way.sh",
-    "tooltip": false
   }
 }

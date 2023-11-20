@@ -3,7 +3,8 @@
     "~/.config/waybar/configs/custom_modules/launcher",
     "~/.config/waybar/configs/custom_modules/modules",
     "~/.config/waybar/configs/custom_modules/privacy_container",
-    "~/.config/waybar/configs/custom_modules/system_container"
+    "~/.config/waybar/configs/custom_modules/system_container",
+    "~/.config/waybar/configs/custom_modules/app_title"
   ],
   "layer": "top",
   "height": 22,
@@ -16,8 +17,7 @@
     "group/launcher",
     "hyprland/workspaces",
     "custom/arrow-dec",
-    "custom/app-title-icon",
-    "custom/app-name"
+    "group/app-title-container"
   ],
   "modules-center": [
     
