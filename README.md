@@ -28,7 +28,7 @@
 <br/>
 <br/>
 
-### Screenshot 2
+### Screenshot 2 [old]
 ![Second Preview](https://raw.githubusercontent.com/UnFunnyGuy/hyprland-dots/master/screenshots/second.png)
 
 <br/>
