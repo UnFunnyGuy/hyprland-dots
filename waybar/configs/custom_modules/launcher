@@ -10,23 +10,22 @@
             "custom/launcher",
             "custom/power",
             "custom/quit",
-            "custom/lock",
             "custom/reboot"
         ]
     },
     
     "custom/quit": {
-        "format": "󪥂",
+        "format": "󪦐",
         "tooltip": false,
         "on-click": "hyprctl dispatch exit"
     },
     "custom/reboot": {
-        "format": "󪤽",
+        "format": "󪦕",
         "tooltip": false,
         "on-click": "reboot"
     },
     "custom/power": {
-        "format": "󪥧",
+        "format": "󪦓",
         "tooltip": false,
         "on-click": "shutdown now"
     },

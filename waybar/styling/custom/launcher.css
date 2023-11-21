@@ -2,22 +2,35 @@
 
 #custom-power,
 #custom-reboot,
-#custom-quit,
-#custom-launcher {
-  font-size: 16px;
+#custom-quit{
+  font-size: 18px;
   margin: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
   color: @on-primary-container;
 }
 
-label#custom-launcher {
+#custom-launcher {
+  font-size: 18px;
+  margin: 2px;
   padding-left: 5px;
   padding-right: 5px;
 }
 
+
 box#launcher {
   margin: 7px;
   border-radius: 10px;
-  background-color: alpha(@primary-container,0.75);
+  background-color: alpha(@primary-container,0.65);
+}
+
+box#launcher .horizontal {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  background-color: alpha(@primary-container,0.98);
 }
 
 
