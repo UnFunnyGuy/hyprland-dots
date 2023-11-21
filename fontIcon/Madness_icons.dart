@@ -12,6 +12,26 @@ class Madness {
 
   static const String _fontFamily = 'Madness';
 
+  static const IconData lock_1_svgrepo_com = IconData(0xea996, fontFamily: _fontFamily);
+  static const IconData restart_square_svgrepo_com = IconData(0xea995, fontFamily: _fontFamily);
+  static const IconData restart_circle_svgrepo_com = IconData(0xea994, fontFamily: _fontFamily);
+  static const IconData power_svgrepo_com = IconData(0xea993, fontFamily: _fontFamily);
+  static const IconData pin_circle_svgrepo_com = IconData(0xea992, fontFamily: _fontFamily);
+  static const IconData logout_2_svgrepo_com = IconData(0xea991, fontFamily: _fontFamily);
+  static const IconData key_minimalistic_square_svgrepo_com = IconData(0xea990, fontFamily: _fontFamily);
+  static const IconData cloudy_moon_svgrepo_com = IconData(0xea989, fontFamily: _fontFamily);
+  static const IconData cloud_waterdrop_svgrepo_com = IconData(0xea988, fontFamily: _fontFamily);
+  static const IconData cloud_svgrepo_com = IconData(0xea987, fontFamily: _fontFamily);
+  static const IconData cloud_sun_svgrepo_com = IconData(0xea986, fontFamily: _fontFamily);
+  static const IconData cloud_sun_2_svgrepo_com = IconData(0xea985, fontFamily: _fontFamily);
+  static const IconData cloud_storm_svgrepo_com = IconData(0xea984, fontFamily: _fontFamily);
+  static const IconData cloud_storage_svgrepo_com = IconData(0xea983, fontFamily: _fontFamily);
+  static const IconData clouds_svgrepo_com = IconData(0xea982, fontFamily: _fontFamily);
+  static const IconData cloud_snowfall_svgrepo_com = IconData(0xea981, fontFamily: _fontFamily);
+  static const IconData cloud_snowfall_minimalistic_svgrepo_com = IconData(0xea980, fontFamily: _fontFamily);
+  static const IconData cloud_rain_svgrepo_com = IconData(0xea979, fontFamily: _fontFamily);
+  static const IconData cloud_bolt_svgrepo_com = IconData(0xea978, fontFamily: _fontFamily);
+  static const IconData bolt_circle_svgrepo_com = IconData(0xea977, fontFamily: _fontFamily);
   static const IconData clock1 = IconData(0xea976, fontFamily: _fontFamily);
   static const IconData spotify = IconData(0xea975, fontFamily: _fontFamily);
   static const IconData linux = IconData(0xea974, fontFamily: _fontFamily);

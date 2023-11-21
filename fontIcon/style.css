@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Madness';
-  src:  url('fonts/Madness.eot?p830wn');
-  src:  url('fonts/Madness.eot?p830wn#iefix') format('embedded-opentype'),
-    url('fonts/Madness.ttf?p830wn') format('truetype'),
-    url('fonts/Madness.woff?p830wn') format('woff'),
-    url('fonts/Madness.svg?p830wn#Madness') format('svg');
+  src:  url('fonts/Madness.eot?h1ekne');
+  src:  url('fonts/Madness.eot?h1ekne#iefix') format('embedded-opentype'),
+    url('fonts/Madness.ttf?h1ekne') format('truetype'),
+    url('fonts/Madness.woff?h1ekne') format('woff'),
+    url('fonts/Madness.svg?h1ekne#Madness') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,84 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mad-lock-1-svgrepo-com:before {
+  content: "\ea996";
+}
+.mad-restart-square-svgrepo-com:before {
+  content: "\ea995";
+  color: #1c274c;
+}
+.mad-restart-circle-svgrepo-com:before {
+  content: "\ea994";
+  color: #1c274c;
+}
+.mad-power-svgrepo-com:before {
+  content: "\ea993";
+}
+.mad-pin-circle-svgrepo-com:before {
+  content: "\ea992";
+  color: #1c274c;
+}
+.mad-logout-2-svgrepo-com:before {
+  content: "\ea991";
+  color: #1c274c;
+}
+.mad-key-minimalistic-square-svgrepo-com:before {
+  content: "\ea990";
+  color: #1c274c;
+}
+.mad-cloudy-moon-svgrepo-com:before {
+  content: "\ea989";
+  color: #1c274c;
+}
+.mad-cloud-waterdrop-svgrepo-com:before {
+  content: "\ea988";
+  color: #1c274c;
+}
+.mad-cloud-svgrepo-com:before {
+  content: "\ea987";
+  color: #1c274c;
+}
+.mad-cloud-sun-svgrepo-com:before {
+  content: "\ea986";
+  color: #1c274c;
+}
+.mad-cloud-sun-2-svgrepo-com:before {
+  content: "\ea985";
+  color: #1c274c;
+}
+.mad-cloud-storm-svgrepo-com:before {
+  content: "\ea984";
+  color: #1c274c;
+}
+.mad-cloud-storage-svgrepo-com:before {
+  content: "\ea983";
+  color: #1c274c;
+}
+.mad-clouds-svgrepo-com:before {
+  content: "\ea982";
+  color: #1c274c;
+}
+.mad-cloud-snowfall-svgrepo-com:before {
+  content: "\ea981";
+  color: #1c274c;
+}
+.mad-cloud-snowfall-minimalistic-svgrepo-com:before {
+  content: "\ea980";
+  color: #1c274c;
+}
+.mad-cloud-rain-svgrepo-com:before {
+  content: "\ea979";
+  color: #1c274c;
+}
+.mad-cloud-bolt-svgrepo-com:before {
+  content: "\ea978";
+  color: #1c274c;
+}
+.mad-bolt-circle-svgrepo-com:before {
+  content: "\ea977";
+  color: #1c274c;
+}
 .mad-clock1:before {
   content: "\ea976";
   color: #fff;
