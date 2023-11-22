@@ -8,12 +8,12 @@
 }
 
 #custom-app-title-icon {
-  margin: 4px;
+  margin: 5px;
   font-size: 25px;
   color: alpha(@on-secondary-container,0.75);
   background-color: alpha(@secondary-container, 0.55);
   border-radius: 10px;
-  padding: 2px;
+  padding: 3px;
 }
 
 #custom-app-title-icon.Spotify { color: alpha(@green,0.75) }
