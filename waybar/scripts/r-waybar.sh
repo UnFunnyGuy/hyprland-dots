@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 CONFIG="$HOME/.config/waybar/configs/config"
-STYLE="$HOME/..config/waybar/styling/style.css"
+STYLE="$HOME/.config/waybar/styling/style.css"
 
 if [[ $(pgrep -x "waybar") = "waybar" ]];
 then

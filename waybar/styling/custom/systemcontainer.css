@@ -41,6 +41,6 @@ box#system-container {
     color: @on-secondary-container;
 }
 
-#custom-pacman-update.uptodate {
+#custom-pacman-update.uptodate.text {
     color: @green;
 }

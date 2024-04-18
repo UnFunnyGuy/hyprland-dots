@@ -35,21 +35,6 @@ cam_check() {
 
 }
 
-left() {
-    if [ -n "$check" ] || [ -n "$check_webcam" ] || [ -n "$check_mic" ]; then
-        echo " "
-    else
-        echo ""
-    fi
-}
-
-right() {
-    if [ -n "$check" ] || [ -n "$check_webcam" ] || [ -n "$check_mic" ]; then
-        echo " "
-    else
-        echo ""
-    fi
-}
 
 if [ "$1" == "S" ]; then
     speaker_check
@@ -57,10 +42,6 @@ elif [ "$1" == "M" ]; then
     mic_check
 elif [ "$1" == "C" ]; then
     cam_check
-elif [ "$1" == "l" ]; then
-    left
-elif [ "$1" == "r" ]; then
-    right
 else
     exit
 fi

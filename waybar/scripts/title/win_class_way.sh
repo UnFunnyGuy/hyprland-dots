@@ -3,6 +3,7 @@
 # Define the mapping
 declare -A PKGS=(
     ["Code"]="VsCode"
+    ["code-oss"]="VsCode"
     ["Alacritty"]="Alacritty"
     ["jetbrains-studio"]="Android Studio"
     ["jetbrains-idea"]="Idea"
@@ -17,6 +18,7 @@ declare -A PKGS=(
 # Define the mapping between app names and symbols
 declare -A SYMBOLS=(
     ["Code"]="󪥢"
+    ["code-oss"]="󪥢"
     ["Alacritty"]="󪥌"
     ["jetbrains-studio"]="󪤍"
     ["jetbrains-idea"]="󪤍"
@@ -26,6 +28,7 @@ declare -A SYMBOLS=(
     ["org.telegram.desktop"]="󪥣"
     ["Google-Chrome"]="󪤕"
     ["firefox"]="󪥲"
+    ["Firefox"]="󪥲"
     ["Spotify"]="󪥵"
     ["GitKraken"]="󪥨"
 )

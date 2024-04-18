@@ -49,8 +49,3 @@ box#app-title-container {
   background-color: alpha(@secondary-container, 0.25);
   border-radius: 10px;
 }
-
-#app-title-container widget.noicon {
-  background-color: blue;
-  border-radius: 10px;
-}
