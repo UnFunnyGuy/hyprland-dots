@@ -181,32 +181,32 @@
 
 [urgency_low]
 timeout = 4
-background = "#1d1b1e"
-foreground = "#e6e1e6"
-frame_color = "#d3bbff"
-highlight = "#d3bbff"
+background = "#121318"
+foreground = "#e3e1e9"
+frame_color = "#bac3ff"
+highlight = "#bac3ff"
 
 
 [urgency_normal]
 timeout = 4
-background = "#1d1b1e"
-foreground = "#e6e1e6"
-frame_color = "#d3bbff"
-highlight = "#d3bbff"
+background = "#121318"
+foreground = "#e3e1e9"
+frame_color = "#bac3ff"
+highlight = "#bac3ff"
 
 
 [urgency_critical]
 timeout = 4
-background = "#1d1b1e"
-foreground = "#e6e1e6"
+background = "#121318"
+foreground = "#e3e1e9"
 frame_color = "#ff6961"
-highlight = "#d3bbff"
+highlight = "#bac3ff"
 
 
 [backlight]
 timeout = 1
 summary = "Backlight"
-highlight = "#d3bbff"
+highlight = "#bac3ff"
 set_stack_tag = "backlight"
 
 
