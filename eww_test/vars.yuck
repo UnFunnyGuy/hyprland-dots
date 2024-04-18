@@ -1,2 +1,0 @@
-(defvar EWW "/usr/bin/eww -c $HOME/.config/eww_test")
-(defvar EWW_UPDATE "/usr/bin/eww -c $HOME/.config/eww_test update")
