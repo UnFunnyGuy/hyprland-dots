@@ -17,6 +17,11 @@ label#network {
 #idle_inhibitor {
   padding: 0 0px;
   color: @on-background;
+  font-size: 14px;
+}
+
+#network.ethernet {
+  color: @pastel-green;
 }
 
 #window {

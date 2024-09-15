@@ -13,6 +13,7 @@ declare -A PKGS=(
     ["org.telegram.desktop"]="Telegram"
     ["Google-Chrome"]="Chrome"
     ["firefox"]="Firefox"
+    ["Thorium-browser"]="Thorium"
 )
 
 # Define the mapping between app names and symbols
@@ -20,7 +21,7 @@ declare -A SYMBOLS=(
     ["Code"]="󪥢"
     ["code-oss"]="󪥢"
     ["Alacritty"]="󪥌"
-    ["jetbrains-studio"]="󪤍"
+    ["jetbrains-studio"]="󪥰"
     ["jetbrains-idea"]="󪤍"
     ["uget-gtk"]="󪤐"
     ["org.gnome.Nautilus"]="󪤈"
@@ -29,6 +30,7 @@ declare -A SYMBOLS=(
     ["Google-Chrome"]="󪤕"
     ["firefox"]="󪥲"
     ["Firefox"]="󪥲"
+    ["Thorium-browser"]="󪥳"
     ["Spotify"]="󪥵"
     ["GitKraken"]="󪥨"
 )

@@ -3,7 +3,7 @@
 #backlight,
 #pulseaudio,
 #custom-pacman-update {
-  font-size: 18px;
+  font-size: 13px;
   color: @primary;
 }
 

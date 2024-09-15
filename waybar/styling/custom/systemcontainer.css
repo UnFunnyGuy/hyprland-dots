@@ -2,8 +2,8 @@
 
 
 box#system-container {
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-left: 10px;
     padding-right: 5px;
     background-color: alpha(@secondary-container, 0.75);
@@ -25,7 +25,7 @@ box#system-container {
 #backlight,
 #pulseaudio,
 #custom-pacman-update {
-    font-size: 18px;
+    font-size: 13px;
     color: @primary;
 }
 

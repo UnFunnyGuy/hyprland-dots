@@ -3,15 +3,15 @@
 #custom-power,
 #custom-reboot,
 #custom-quit{
-  font-size: 18px;
-  margin: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
+  font-size: 13px;
+  margin: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
   color: @on-primary-container;
 }
 
 #custom-launcher {
-  font-size: 18px;
+  font-size: 13px;
   margin: 2px;
   padding-left: 5px;
   padding-right: 5px;
@@ -19,8 +19,8 @@
 
 
 box#launcher {
-  margin: 7px;
-  border-radius: 10px;
+  margin: 5px;
+  border-radius: 8px;
   background-color: alpha(@primary-container,0.65);
 }
 
@@ -29,7 +29,7 @@ box#launcher .horizontal {
   margin-bottom: 4px;
   margin-left: 5px;
   margin-right: 5px;
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: alpha(@primary-container,0.98);
 }
 

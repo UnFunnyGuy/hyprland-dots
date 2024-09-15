@@ -14,7 +14,6 @@
   "margin-right": 0,
   "spacing": 0,
   "modules-left": [
-    "group/launcher",
     "hyprland/workspaces",
     "custom/arrow-dec",
     "group/app-title-container"
@@ -37,24 +36,45 @@
     "all-outputs": false,
     "active-only": "false",
     "on-click": "activate",
-    "format": "{icon}",
+    "format": "<big>{icon}</big><span color = '#98ff98'> 󪤖 </span>{windows}",
+  "format-window-separator": " ",
+  "window-rewrite-default": "",
+  "window-rewrite": {
+    "title<.*youtube.*>": "",
+    "class<firefox>": "",
+    "class<firefox> title<.*github.*>": "",
+    "foot": "",
+    "code": "󪤋",
+    "android": "󪥰",
+    "alacritty": "󪤍",
+    "chrome": "󪤕",
+    "thorium": "󪤕",
+    "firefox": "󪥲",
+    "spotify": "󪤏",
+    "gitkraken": "󪥩"
+	},
     "on-scroll-up": "hyprctl dispatch workspace e+1",
     "on-scroll-down": "hyprctl dispatch workspace e-1",
     "format-icons": {
-      "1": "󪤍",
-      "2": "󪤕",
-      "3": "󪥌",
-      "4": "󪥅",
-      "5": "󪤄",
-      "6": "󪤋",
-      "7": "󪤝",
-      "8": "󪤏",
-      "urgent": "󪤳",
-      "default": "󪤾"
+      "1": "一",
+      "2": "二",
+      "3": "三",
+      "4": "四",
+      "5": "五",
+      "6": "六",
+      "7": "七",
+      "8": "八",
+      "9": "九",
+      "10": "十",
+      "urgent": "急",
+      "default": "常"
     }
   },
   "hyprland/window": {
-    "format": "{}"
+    "format": "{}",
+    "icon": true,
+    "separate-outputs": true,
+    "max-length": 70
   },
   "tray": {
     "icon-size": 28,
@@ -63,7 +83,7 @@
 
   "cpu": {
     "interval": 5,
-    "format": "󪥋 <b>{}%</b>",
+    "format": "󪥋 <b>{usage}%</b>",
     "max-length": 10,
     "on-click": "",
     "tooltip": false
@@ -75,10 +95,10 @@
     "tooltip": false
   },
   "network": {
-    "format-wifi": "󪤀 {essid}",
-    "format-ethernet": "󪥈 wired",
-    "tooltip": false,
-    "format-disconnected": ""
+    "format-wifi": "󪤀 <b>{essid}</b>",
+    "format-ethernet": "󪥈 <b>Ethernet</b>",
+    "tooltip": true,
+    "format-disconnected": "󪤓"
   }
   
 }

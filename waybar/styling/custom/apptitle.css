@@ -3,17 +3,19 @@
 
 #custom-arrow-dec {
   margin-left: 2px;
-  font-size: 20px;
+  font-size: 15px;
   color: @primary;
 }
 
 #custom-app-title-icon {
-  margin: 5px;
-  font-size: 25px;
+  font-size: 13px;
   color: alpha(@on-secondary-container,0.75);
   background-color: alpha(@secondary-container, 0.55);
-  border-radius: 10px;
-  padding: 3px;
+  border-radius: 6px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 #custom-app-title-icon.Spotify { color: alpha(@green,0.75) }
@@ -22,7 +24,11 @@
   color: alpha(@pastel-firefox-orange,0.75);
   background-color: alpha(@pastel-firefox-orange,0.25)
  }
-#custom-app-title-icon.Idea { color: alpha(@pastel-jetbrains-blue,0.75) }
+ #custom-app-title-icon.Thorium { 
+  color: alpha(@pastel-chrome-blue,0.85);
+  background-color: alpha(@pastel-chrome-blue,0.25)
+ }
+#custom-app-title-icon.Idea { color: alpha(@pastel-green,0.65) }
 #custom-app-title-icon.Chrome { color: alpha(@pastel-chrome-yellow,0.75) }
 #custom-app-title-icon.Telegram { 
   color: alpha(@pastel-telegram-blue,0.75);
@@ -33,19 +39,15 @@
 
 
 label#custom-app-name {
-  margin-left: 5px;
+  margin-left: 7px;
   margin-right: 5px;
-  font-size: 16px;
+  font-size: 12px;
   color: alpha(@on-secondary-container,0.88);
-  padding: 5px; 
 }
 
 box#app-title-container {
-  margin-right: 5px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding-left: 10px;
-  padding-right: 5px;
+  margin: 5px;
+  padding: 5px;
   background-color: alpha(@secondary-container, 0.25);
-  border-radius: 10px;
+  border-radius: 8px;
 }
