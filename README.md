@@ -23,17 +23,11 @@
 
 ### Screenshot 1
 
-![First Preview](https://raw.githubusercontent.com/UnFunnyGuy/hyprland-dots/master/screenshots/first.png)
-
-<br/>
-<br/>
-
-### Screenshot 2 [old]
-![Second Preview](https://raw.githubusercontent.com/UnFunnyGuy/hyprland-dots/master/screenshots/second.png)
+![First Preview](https://raw.githubusercontent.com/UnFunnyGuy/hyprland-dots/old_layout_v2/screenshots/current_bar.png)
 
 <br/>
 <br/>
 
 ### Font Icons Preview
-![Icons Preview](https://raw.githubusercontent.com/UnFunnyGuy/hyprland-dots/master/screenshots/icons.png)
+![Icons Preview](https://raw.githubusercontent.com/UnFunnyGuy/hyprland-dots/old_layout_v2/screenshots/icons.png)
 
