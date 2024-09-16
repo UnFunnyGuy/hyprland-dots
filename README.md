@@ -23,13 +23,7 @@
 
 ### Screenshot 1
 
-![First Preview](https://raw.githubusercontent.com/UnFunnyGuy/hyprland-dots/master/screenshots/first.png)
-
-<br/>
-<br/>
-
-### Screenshot 2 [old]
-![Second Preview](https://raw.githubusercontent.com/UnFunnyGuy/hyprland-dots/master/screenshots/second.png)
+![First Preview](https://raw.githubusercontent.com/UnFunnyGuy/hyprland-dots/master/screenshots/current_bar.png)
 
 <br/>
 <br/>
